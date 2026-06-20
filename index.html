@@ -52,14 +52,14 @@
     App: TypeRight Keyboard &nbsp;·&nbsp;
     Package: com.sy5temnext.typeright &nbsp;·&nbsp;
     Effective Date: June 15, 2026 &nbsp;·&nbsp;
-    Last Updated: June 15, 2026
+    Last Updated: June 20, 2026
   </p>
 
   <div class="highlight">
     <strong>The short version:</strong> TypeRight does not log, store, transmit, or share your keystrokes.
     Everything you type stays on your device. The only time any text leaves your device is when
-    YOU manually trigger the AI Reply or Rewrite feature — and it goes directly to your own OpenAI account,
-    not to us.
+    YOU manually trigger an AI feature — and it goes directly to your own OpenAI account, not to us.
+    TypeRight is free and supported by banner ads served by Google AdMob.
   </div>
 
   <h2>1. WHO WE ARE</h2>
@@ -81,7 +81,7 @@
       <li>Monitor, track, or analyze what you type</li>
       <li>Collect passwords, PINs, payment card numbers, or any sensitive input</li>
       <li>Share any typing data with advertisers or data brokers</li>
-      <li>Send any data to SY5TEM N3XT at any time for any reason</li>
+      <li>Send any keystroke data to SY5TEM N3XT at any time for any reason</li>
     </ul>
   </div>
   <p>
@@ -97,7 +97,7 @@
   </p>
 
   <h2>3. DATA STORED ON YOUR DEVICE (LOCAL ONLY)</h2>
-  <p>The following data is stored only on your device and is never transmitted to us:</p>
+  <p>The following data is stored only on your device and is never transmitted to SY5TEM N3XT:</p>
   <ul>
     <li>
       <strong>Your OpenAI API Key</strong> — If you choose to enter one, it is saved locally
@@ -113,45 +113,53 @@
       your typing patterns are stored locally to improve autocorrect. Never transmitted.
     </li>
     <li>
+      <strong>NPUT Memory</strong> — If you use the NPUT AI assistant, it may store your name
+      and personal facts you explicitly ask it to remember (e.g. "remember that..."). This data
+      is stored locally on your device only and is included in AI requests sent to OpenAI when
+      you use NPUT chat. It is never sent to SY5TEM N3XT. You can delete it at any time from
+      the NPUT settings panel.
+    </li>
+    <li>
+      <strong>NPUT Reminders</strong> — Reminders and alerts you set through NPUT are stored
+      locally on your device. Reminder content is used to generate AI-powered alert messages
+      at the time you set the reminder; those requests go directly to OpenAI. No reminder data
+      is sent to SY5TEM N3XT.
+    </li>
+    <li>
       <strong>Settings and Preferences</strong> — Your chosen skin, haptic strength, glow speed,
-      and other preferences are stored locally. Never transmitted.
+      emoji usage frequency, and other preferences are stored locally. Never transmitted.
     </li>
   </ul>
 
   <h2>4. AI FEATURES — THIRD-PARTY DATA SHARING (OPENAI)</h2>
   <div class="warning">
-    The only situation in which text from your device leaves your device is when you
-    <strong>manually trigger</strong> the AI Reply or Rewrite feature.
+    The only situation in which text from your device is transmitted externally is when you
+    <strong>manually trigger</strong> an AI feature. All AI communication goes directly to
+    OpenAI — never through SY5TEM N3XT servers.
   </div>
   <p>
-    TypeRight offers optional AI-powered features (Reply and Rewrite) powered by
-    <strong>OpenAI</strong> (ChatGPT / GPT models). These features require you to:
+    TypeRight offers optional AI-powered features powered by <strong>OpenAI</strong>.
+    These features require you to create your own OpenAI account and provide your own API key.
   </p>
-  <ul>
-    <li>Create your own OpenAI account at <a href="https://openai.com" target="_blank">openai.com</a></li>
-    <li>Obtain your own API key from OpenAI</li>
-    <li>Enter that API key into TypeRight's settings</li>
-    <li>Manually long-press the spacebar to activate the feature</li>
-  </ul>
+  <p><strong>AI Reply and AI Rewrite</strong></p>
   <p>
-    <strong>What is sent to OpenAI:</strong>
+    Long-press the A key on the TypeRight keyboard to open the AI bar. Tapping REPLY or REWRITE
+    sends the relevant text from your current field directly to OpenAI's API to generate a response.
+    You initiate this manually every time — nothing is sent automatically.
   </p>
-  <ul>
-    <li>
-      <strong>AI Reply:</strong> The text you have copied to your clipboard (that you intend to reply to)
-      is sent to OpenAI's API to generate a reply. You initiate this by long-pressing the spacebar
-      and tapping REPLY.
-    </li>
-    <li>
-      <strong>AI Rewrite:</strong> The text you have typed in the current field is sent to OpenAI's
-      API to generate a rewritten version. You initiate this by long-pressing the spacebar and tapping REWRITE.
-    </li>
-    <li>
-      <strong>AI Ticker:</strong> Generic content requests are sent to OpenAI to generate jokes,
-      facts, and trivia for the idle suggestion bar. <strong>No personal text, typed content,
-      or user information is included in these requests.</strong>
-    </li>
-  </ul>
+  <p><strong>NPUT Chat</strong></p>
+  <p>
+    NPUT is a full AI chat assistant built into TypeRight. When you send a message in NPUT,
+    your conversation history and any saved NPUT memory (name, personal facts) are sent to
+    OpenAI's API to generate a response. This only occurs when you actively send a message.
+  </p>
+  <p><strong>NPUT Reminders</strong></p>
+  <p>
+    When you ask NPUT to set a reminder, TypeRight sends the reminder topic to OpenAI to generate
+    a personalized alert message (a fact, a tip, and a personal note related to the reminder).
+    This is a one-time call at the time you set the reminder. The alarm itself fires locally on
+    your device — no data is transmitted when the alarm goes off.
+  </p>
   <p>
     <strong>Important:</strong> Your API key and any text sent to OpenAI goes directly from your
     device to OpenAI's servers. SY5TEM N3XT does not act as a proxy, does not receive this data,
@@ -164,31 +172,82 @@
     SY5TEM N3XT receives no payment and has no visibility into your OpenAI usage or billing.
   </p>
 
-  <h2>5. PERMISSIONS USED AND WHY</h2>
+  <h2>5. ADVERTISING — GOOGLE ADMOB</h2>
+  <p>
+    TypeRight is a free app supported by banner advertisements served by
+    <strong>Google AdMob</strong>. Ads appear only in the suggestion bar area of the keyboard
+    when you are not actively typing. They are never shown during keystrokes or on password fields.
+  </p>
+  <p>
+    AdMob may collect and use certain data to serve relevant ads, including:
+  </p>
+  <ul>
+    <li>Device identifiers (Advertising ID)</li>
+    <li>General device information (model, OS version)</li>
+    <li>Coarse location (if permitted by your device settings)</li>
+    <li>Ad interaction data (impressions, clicks)</li>
+  </ul>
+  <p>
+    Where required by law (such as in the EU/EEA under GDPR, or the UK), TypeRight displays a
+    consent dialog before loading ads. Your consent choices are respected and stored by the
+    Google User Messaging Platform (UMP) SDK.
+  </p>
+  <p>
+    TypeRight does not share your typed text, keystrokes, or personal information with AdMob.
+    AdMob's data collection is limited to what the AdMob SDK collects independently.
+    For more information, see
+    <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> and
+    <a href="https://support.google.com/admob/answer/6128543" target="_blank">Google AdMob's data practices</a>.
+  </p>
+  <p>
+    You can opt out of personalized advertising at any time in your Android device settings:
+    <strong>Settings → Google → Ads → Opt out of Ads Personalization</strong>.
+  </p>
+
+  <h2>6. PERMISSIONS USED AND WHY</h2>
   <ul>
     <li>
-      <strong>INTERNET</strong> — Required only for optional AI features that communicate with
-      OpenAI. If you do not use AI features, this permission is never exercised.
+      <strong>INTERNET</strong> — Required for optional AI features that communicate with OpenAI,
+      and for loading banner ads via AdMob. If you do not use AI features and ads are not loaded,
+      this permission is not exercised.
     </li>
     <li>
       <strong>VIBRATE</strong> — Used for haptic key-press feedback. Controlled entirely by
       your settings. No data is collected.
     </li>
+    <li>
+      <strong>POST_NOTIFICATIONS</strong> — Required to deliver NPUT reminder notifications.
+      Only requested if you use the NPUT reminder feature. You may deny this permission;
+      NPUT reminders will not function without it.
+    </li>
+    <li>
+      <strong>USE_FULL_SCREEN_INTENT</strong> — Required to display NPUT alerts as a full-screen
+      takeover on your lock screen when a reminder fires. Only used when a NPUT alarm triggers.
+    </li>
+    <li>
+      <strong>SCHEDULE_EXACT_ALARM</strong> — Required for NPUT reminders to fire at the exact
+      time you specify. Without this, reminders may be delayed by the system.
+    </li>
+    <li>
+      <strong>RECEIVE_BOOT_COMPLETED</strong> — Required to reschedule your NPUT reminders
+      automatically after your device restarts. Without this, reminders set before a reboot
+      would be lost.
+    </li>
   </ul>
   <p>TypeRight does not request access to your contacts, location, camera, microphone,
-  photos, files, or any other sensitive device resource.</p>
+  photos, files, or any other sensitive device resource beyond what is listed above.</p>
 
-  <h2>6. DATA WE COLLECT</h2>
+  <h2>7. DATA COLLECTED BY SY5TEM N3XT</h2>
   <p>
-    <strong>SY5TEM N3XT collects no data from TypeRight users. Zero.</strong>
+    <strong>SY5TEM N3XT collects no personal data from TypeRight users.</strong>
   </p>
   <p>
-    We do not use analytics SDKs, crash reporting services, ad networks, or any third-party
-    tracking in TypeRight. There are no SDKs in the app that collect or transmit data to us
-    or to any third party on our behalf.
+    We do not use analytics SDKs, crash reporting services, or any tracking tools that report
+    data back to us. The only third-party SDKs in the app are OpenAI (user-triggered, BYOK)
+    and Google AdMob (advertising). Both are described in detail above.
   </p>
 
-  <h2>7. CHILDREN'S PRIVACY</h2>
+  <h2>8. CHILDREN'S PRIVACY</h2>
   <p>
     TypeRight is a general-purpose keyboard application not directed at children under the age of 13.
     We do not knowingly collect personal information from children under 13.
@@ -207,7 +266,7 @@
     and we will assist you.
   </p>
 
-  <h2>8. SECURITY</h2>
+  <h2>9. SECURITY</h2>
   <p>
     TypeRight stores all local data in your device's private application storage,
     which is protected by Android's built-in sandboxing. No other application can access
@@ -215,49 +274,62 @@
   </p>
   <p>
     All communication with OpenAI's API uses HTTPS (TLS) encryption.
-    SY5TEM N3XT never receives, handles, or stores your API key.
+    SY5TEM N3XT never receives, handles, or stores your API key or any text you send to OpenAI.
   </p>
 
-  <h2>9. DATA RETENTION AND DELETION</h2>
+  <h2>10. DATA RETENTION AND DELETION</h2>
   <p>
-    All data stored by TypeRight (clipboard history, personal dictionary, settings, API key)
-    exists only on your device and is deleted when you uninstall the app.
+    All data stored by TypeRight (clipboard history, personal dictionary, NPUT memory,
+    NPUT reminders, settings, API key) exists only on your device and is deleted when
+    you uninstall the app.
   </p>
   <p>
-    You can clear your API key at any time by opening TypeRight Settings → AI tab,
-    clearing the key field, and tapping Save.
+    You can clear your API key at any time: TypeRight Settings → AI tab → clear the key → Save.<br />
+    You can clear NPUT memory at any time: open NPUT chat → tap ⚙ → CLEAR ALL MEMORY.
   </p>
   <p>
     Because SY5TEM N3XT collects no data, there is no data held by us to request deletion of.
   </p>
 
-  <h2>10. THIRD-PARTY SERVICES</h2>
-  <p>TypeRight integrates with one optional third-party service:</p>
+  <h2>11. THIRD-PARTY SERVICES</h2>
   <ul>
     <li>
       <strong>OpenAI</strong> (<a href="https://openai.com/privacy" target="_blank">Privacy Policy</a>) —
-      Used for AI Reply, Rewrite, and Ticker features when an API key is provided by the user.
-      Only activated by explicit user action. Not used at all if no API key is set.
+      Used for AI Reply, AI Rewrite, NPUT Chat, and NPUT Reminder content generation.
+      Only activated by explicit user action using the user's own API key.
+      Not used at all if no API key is set.
+    </li>
+    <li>
+      <strong>Google AdMob</strong> (<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>) —
+      Used to serve banner advertisements in the suggestion bar when the keyboard is idle.
+      AdMob may collect device identifiers and usage data for ad personalization subject to your
+      consent choices. See Section 5 above for full details.
+    </li>
+    <li>
+      <strong>Google User Messaging Platform (UMP)</strong> — Used to collect and manage your
+      ad consent preferences where required by law (GDPR, UK). Consent data is stored locally
+      on your device.
     </li>
   </ul>
-  <p>
-    TypeRight does not integrate with Google Analytics, Firebase, Facebook, or any other
-    analytics, advertising, or tracking service.
-  </p>
 
-  <h2>11. YOUR RIGHTS</h2>
+  <h2>12. YOUR RIGHTS</h2>
   <p>
     Since SY5TEM N3XT does not collect or store any personal data from TypeRight users,
     traditional data subject rights (access, correction, portability, erasure) apply only
     to your local device data — which you fully control and can delete by uninstalling the app.
   </p>
   <p>
-    For any data shared with OpenAI through the AI features, please refer to
+    For data shared with OpenAI through AI features, please refer to
     <a href="https://openai.com/privacy" target="_blank">OpenAI's Privacy Policy</a>
     and exercise your rights directly with OpenAI.
   </p>
+  <p>
+    For data collected by AdMob, please refer to
+    <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>
+    or adjust your device's ad personalization settings.
+  </p>
 
-  <h2>12. CHANGES TO THIS POLICY</h2>
+  <h2>13. CHANGES TO THIS POLICY</h2>
   <p>
     We may update this Privacy Policy from time to time. When we do, we will update the
     "Last Updated" date at the top of this page. We encourage you to review this policy
@@ -265,7 +337,7 @@
     of the updated policy.
   </p>
 
-  <h2>13. CONTACT</h2>
+  <h2>14. CONTACT</h2>
   <p>
     If you have questions, concerns, or requests regarding this Privacy Policy or TypeRight's
     data practices, please contact us:
